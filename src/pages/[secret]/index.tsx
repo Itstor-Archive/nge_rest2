@@ -20,7 +20,7 @@ function SecretPage({
       <>
         <Seo title='Sadge 😢' />
         <div className='flex h-screen w-screen items-center justify-center'>
-          <img src={trapUrl} className='h-auto w-[400px]' alt='LOL' />
+          <img src={trapUrl} className='h-auto md:w-[400px]' alt='LOL' />
         </div>
       </>
     );
@@ -30,13 +30,16 @@ function SecretPage({
     <>
       <Seo title='Congratss 🎉🎉' />
       <Confetti width={width} height={height} recycle={false} />
-      <div className='flex h-screen w-screen flex-col items-center justify-center'>
+      <div className='flex h-screen w-screen flex-col items-center justify-center text-center'>
         <h1>
           Congratz, you found my contact{' '}
           <span className='text-4xl'>🎉🎉🎉</span>
         </h1>
         <h6>hint: find in this page</h6>
-        <h6 className='text-white'>line: ahmdthoriq__</h6>
+        <h6 className='text-white'>{`line: admeydrpc'{{`}</h6>
+        <h6 className='text-white'>
+          hint: QWERTY person typing on DVORAK keyboard
+        </h6>
       </div>
     </>
   );
